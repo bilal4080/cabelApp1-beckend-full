@@ -78,6 +78,14 @@ class _HomePageState extends State<Settings_user> {
     });
 
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Color(0xff453658),
+        title: Text(
+          'Bills',
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
       backgroundColor: color1,
       body: Stack(
         children: [

@@ -94,13 +94,18 @@ class _SplashscreenState extends State<Splashscreen> {
                 width: 300,
               ),
               SizedBox(height: 15),
-              Text(
-                'Cable Ghar',
-                style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.w300,
-                  color: Colors.white,
-                ),
+              // Text(
+              //   'Cable Ghar',
+              //   style: TextStyle(
+              //     fontSize: 30,
+              //     fontWeight: FontWeight.w300,
+              //     color: Colors.white,
+              //   ),
+              // ),
+              Image.asset(
+                'images/Logo cable.png',
+                height: 140,
+                width: 150,
               ),
             ],
           ),
